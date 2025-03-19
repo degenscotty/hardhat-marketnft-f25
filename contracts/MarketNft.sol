@@ -208,7 +208,7 @@ contract MarketNft is ERC721, Ownable {
                                 '", "location": "',
                                 metadata.location,
                                 '", "image":"',
-                                metadata.imageURI,
+                                metadata.image,
                                 '"}'
                             )
                         )
