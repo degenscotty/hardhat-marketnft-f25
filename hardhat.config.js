@@ -1,7 +1,6 @@
 require("dotenv").config()
 require("@nomicfoundation/hardhat-toolbox")
 
-const SONIC_RPC_URL = process.env.SONIC_RPC_URL || "https://sonic.testnet"
 const SONIC_PRIVATE_KEY = process.env.PRIVATE_KEY || "0xkey"
 
 module.exports = {
